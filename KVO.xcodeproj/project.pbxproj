@@ -14,6 +14,7 @@
 		85A64E041AE34E73004BBB2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A64E031AE34E73004BBB2D /* Images.xcassets */; };
 		85A64E071AE34E73004BBB2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A64E051AE34E73004BBB2D /* LaunchScreen.xib */; };
 		85A64E131AE34E73004BBB2D /* KVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A64E121AE34E73004BBB2D /* KVOTests.m */; };
+		85A64E1E1AE351BA004BBB2D /* AppStatusWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A64E1D1AE351BA004BBB2D /* AppStatusWatcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		85A64E0C1AE34E73004BBB2D /* KVOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A64E111AE34E73004BBB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85A64E121AE34E73004BBB2D /* KVOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOTests.m; sourceTree = "<group>"; };
+		85A64E1C1AE351BA004BBB2D /* AppStatusWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStatusWatcher.h; sourceTree = "<group>"; };
+		85A64E1D1AE351BA004BBB2D /* AppStatusWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStatusWatcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				85A64DFA1AE34E73004BBB2D /* AppDelegate.h */,
 				85A64DFB1AE34E73004BBB2D /* AppDelegate.m */,
+				85A64E1C1AE351BA004BBB2D /* AppStatusWatcher.h */,
+				85A64E1D1AE351BA004BBB2D /* AppStatusWatcher.m */,
 				85A64DFD1AE34E73004BBB2D /* ViewController.h */,
 				85A64DFE1AE34E73004BBB2D /* ViewController.m */,
 				85A64E001AE34E73004BBB2D /* Main.storyboard */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85A64E1E1AE351BA004BBB2D /* AppStatusWatcher.m in Sources */,
 				85A64DFF1AE34E73004BBB2D /* ViewController.m in Sources */,
 				85A64DFC1AE34E73004BBB2D /* AppDelegate.m in Sources */,
 				85A64DF91AE34E73004BBB2D /* main.m in Sources */,
@@ -412,6 +418,7 @@
 				85A64E181AE34E73004BBB2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85A64E191AE34E73004BBB2D /* Build configuration list for PBXNativeTarget "KVOTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				85A64E1B1AE34E73004BBB2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
